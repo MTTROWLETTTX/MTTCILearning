@@ -1,6 +1,9 @@
 name: Condition-and-Expression-Demo
 
 on:
+  push:
+    branches: ['feature003']
+    
   workflow_dispatch:
     inputs:
       failstep:
