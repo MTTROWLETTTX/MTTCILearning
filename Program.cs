@@ -11,6 +11,7 @@ namespace MTTCILearning
 {
     public class Program
     {
+        a;
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
