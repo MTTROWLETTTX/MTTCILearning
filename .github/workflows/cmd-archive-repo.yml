@@ -12,4 +12,4 @@ jobs:
         uses: lindluni/warden-cmd-archive@main
         with:
           admin_token: ${{ secrets.DEVOPS_BOT_PAT }}
-          repo: github-user-requests
+          repo: MTTCILearning
