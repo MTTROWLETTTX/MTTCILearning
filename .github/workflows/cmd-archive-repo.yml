@@ -9,7 +9,7 @@ jobs:
     if: contains(github.event.comment.body, '/archive')
     steps:
       - name: Archive Repo
-        uses: lindluni/warden-cmd-archive@main
+        uses: MTTROWLETTTX/github-custom-actions@main
         with:
           admin_token: ${{ secrets.DEVOPS_BOT_PAT }}
           repo: MTTCILearning
